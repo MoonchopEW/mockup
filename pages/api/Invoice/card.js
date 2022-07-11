@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
 
-  {
+  
     res.header("Access-Control-Allow-Origin","*").status(200).json({
       data: [
         { name: "이 달 예상 수입", icon: "CashIcon", amount: "70,000 원" },
@@ -14,5 +14,5 @@ export default function handler(req, res) {
         },
       ],
     });
-  }
+  
 }

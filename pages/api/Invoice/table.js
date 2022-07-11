@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
  {
-   res.status(200).json({
+   res.header("Access-Control-Allow-Origin","*").status(200).json({
      data: [
        {
          index: "1",
