@@ -42,7 +42,7 @@ export default function handler(req, res) {
         question: "<span>㉠에 들어갈 알맞은 말을 고르십시오.</span>",
         question_fix_id: { qb_question_id: 300069 },
         question_id: 35782,
-        question_no: "1",
+        question_no: 1,
         score: 10,
         section: "Reading",
         section_time: 11,
