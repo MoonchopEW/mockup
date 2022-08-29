@@ -2,6 +2,20 @@ export default function handler(req, res) {
   res.status(200).json({
     data: [
       {
+        audios: [
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/Q-LTCD-5-6.mp3",
+          },
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/L-2.mp3",
+          },
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/T1_LTCD_58.mp3",
+          },
+        ],
         section: "Reading",
         section_time: 11,
         is_first_question: false,

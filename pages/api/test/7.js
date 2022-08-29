@@ -2,6 +2,7 @@ export default function handler(req, res) {
   res.status(200).json({
     data: [
       {
+        audios: [],
         contents: "",
         group_question:
           "<span>다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오.</span>",

@@ -2,6 +2,20 @@ export default function handler(req, res) {
   res.status(200).json({
     data: [
       {
+        audios: [
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/Q-LTCQ-1-4.mp3",
+          },
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/L-1.mp3",
+          },
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/T1_LTCQ_2008.mp3",
+          },
+        ],
         answers: [
           {
             answer_id: 300543,

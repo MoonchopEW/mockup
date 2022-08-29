@@ -2,6 +2,16 @@ export default function handler(req, res) {
   res.status(200).json({
     data: [
       {
+        audio: [
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/L-2.mp3",
+          },
+          {
+            audio_url:
+              "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/T1_LTCQ_1144.mp3",
+          },
+        ],
         contents: "",
         group_question:
           "<span>다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오.</span>",
