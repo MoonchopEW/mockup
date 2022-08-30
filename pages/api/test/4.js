@@ -2,7 +2,7 @@ export default function handler(req, res) {
   res.status(200).json({
     data: [
       {
-        audio: [
+        audios: [
           {
             audio_url:
               "https://s3.ap-northeast-2.amazonaws.com/resource.ebridgehub.com/system/testprep/audio/L-2.mp3",
